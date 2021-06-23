@@ -1,0 +1,11 @@
+<!-- UppercasePipe: 为内置管道，把英文字母变为大写 -->
+<h2>{{hero.name | uppercase}} Detail</h2>
+
+<!-- <div><span>id: </span>{{hero.id}}</div>
+<div><span>name: </span>{{hero.name}}</div> -->
+
+<div>
+  <label for="name">Hero name: </label>
+  <!-- ngModule 属于一个可选模块FormsModule,必须自行添加此模块才能使用该指令 -->
+  <input type="text" id="name" [(ngModel)]="hero.name" placeholder="name">
+</div>
