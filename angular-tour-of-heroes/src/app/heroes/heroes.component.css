@@ -1,0 +1,46 @@
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+
+.heroes li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  margin: .5em;
+  padding: .3em 0;
+  background-color: #eee;
+  height: 1.6em;
+  line-height: 1.6em;
+}
+
+.heroes li:hover {
+  color: #84b5e6;
+  background-color: rgb(80, 92, 99);
+}
+
+.heroes li.selected {
+  background-color: rgb(100, 72, 79);
+  color: rgb(165, 172, 104);
+}
+
+.heroes li.selected:hover {
+  background-color: rgb(96, 153, 79);
+  color: #dad4c4;
+}
+
+.badge {
+  display: inline-block;
+  position: relative;
+  font-size: small;
+  color: #fff;
+  left: -1px;
+  top: -5.5px;
+  padding: 0.8em 0.7em 0 0.7em;
+  line-height: 1em;
+  height: 2em;
+  margin-right: 2em;
+  background-color: #a1a3a5;
+}
